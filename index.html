@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styleLogin.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700&display=swap"
+        rel="stylesheet">
+    <title>Hazem Login </title>
+</head>
+
+<body>
+    <section id="loginAndSign">
+        <div class="w-75 m-auto loginSignPage  my-5 p-5 " id="loginSignPage">
+            <div class="text text-center">
+                <h1>Smart Login System</h1>
+            </div>
+           
+       
+            <div class="email position-relative">
+                <input type="text" placeholder="Enter Your Name" class="form-control" id="nameUser">
+                <i class="fa-solid fa-check position-absolute icNameCorrect" id="icNameCorrect"></i>
+                <p class="pInvalidName" id="pInvalidName">Name contain FirstName and Last Name And  All Start Capital Char</p>
+
+
+
+            </div>
+         
+           
+            <div class="email position-relative">
+                <input type="text" placeholder="Enter Your Email" class="form-control" id="emailUser">
+                <i class="fa-solid fa-check position-absolute icEmailCorrect" id="icEmailCorrect"></i>
+                <p class="pInvalidPassword" id="pInvalidEmail">Email should exmple125@gmail.com or exmple125@yahoo.com </p>
+
+
+
+            </div>
+            <div class="password position-relative">
+                <input type="password" placeholder="Enter Your Password" class="form-control" id="passwordUser">
+                <i class="fa-solid fa-check position-absolute icPasCorrect" id="icPasCorrect"></i>
+                <p class="pInvalidPassword" id="pInvalidPassword">password should contain atleast one number and one special character </p>
+
+
+
+            </div>
+            <div class="loginInvalid text-center" id="loginInvalid">
+                <p> Your Email And Password Not Found</p>
+            </div>
+            <button class=" w-100 my-3 btnSign" id="btnSign">Sign Up</button>
+            <button class=" w-100 my-3 btnLogin" id="btnLogin">Login</button>
+           
+            <div class="loginSignFooter text-center">
+                <p id="pLogin">You have an account?<button id="toLogin" class="toLogin">Signin</button></p>
+                <p id="pSign">Don’t have an account?<button id="toSign" class="toSign">SignUp</button></p>
+
+
+            </div>
+
+        </div>
+
+    </section>
+    <section id="home" class="d-flex justify-content-center align-items-center">
+        <div class="navbar fixed-top shadow-lg" id="navBar">
+            <div class="container d-flex">
+                <h1 class="text-white">SMART LOGIN
+                </h1>
+                <button class="navBtn" id="navBtn">LogOut</button>
+            </div>
+
+        </div>
+        <div class="container text-center shadow-lg py-5 " id="containerHone">
+            <!-- <h1 class="welcom" id="welcom">Welcome hazem</h1> -->
+
+        </div>
+
+    </section>
+    <script src="java/javaScript.js"></script>
+</body>
+
+</html>

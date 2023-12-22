@@ -1,0 +1,209 @@
+
+body{
+    background-color: var(--mainColor);
+   
+
+}
+:root{
+    --mainColor:#24353f;
+    --primaryColor:#17acb8;
+}
+.loginSignPage{
+    background-color: var(--mainColor);
+    
+    /* box-shadow: 2px 7px 14px 25px rgba(0,0,0,0.75); */
+    box-shadow: 2px 7px 15px 21px rgba(0,0,0,0.75);
+
+
+
+}
+/* input{
+    margin: 15px;
+    background-color: #24353f !important;
+    
+} */
+
+.form-control {
+    
+   
+    color: white !important;
+   
+ 
+    background-color: #24353f !important;
+
+    margin-top:15px ;
+    border: 2px solid white;
+   
+    
+}
+.form-control:focus {
+    border-color: var(--primaryColor);
+    outline: 0;
+    box-shadow: 0 0 0 ;
+}
+
+.text h1{
+    color: var(--primaryColor);
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 48px;
+    font-family: 'Titillium Web', sans-serif;
+
+
+}
+.btnSign{
+    padding: 5px;
+    background-color: transparent;
+    border: 1px solid var(--primaryColor);
+    border-radius: 5px;
+    color: var(--primaryColor);
+
+    display: block;
+
+}
+.btnSign:hover{
+   
+
+    background-color: var(--primaryColor);
+   
+    color: white ;
+
+
+
+}
+.btnLogin{
+    padding: 5px;
+    background-color: transparent;
+    border: 1px solid var(--primaryColor);
+    border-radius: 5px;
+    color: var(--primaryColor);
+    display: none;
+
+
+
+}
+ #pLogin{
+    display: block;
+}
+ #pSign{
+    display: none;
+}
+
+.btnLogin:hover{
+   
+
+    background-color: var(--primaryColor);
+   
+    color: white ;
+
+
+
+}
+.loginSignFooter p{
+    color: white;
+
+}
+.loginSignFooter .toSign{
+    background-color: transparent;
+  border: 0;
+  color: white;
+    margin-left: 5px;
+
+}
+
+.loginSignFooter .toSign:hover{
+    text-decoration: underline;
+   
+
+}
+
+.loginSignFooter .toLogin{
+  background-color: transparent;
+  border: 0;
+  color: white;
+    margin-left: 5px;
+
+}
+
+.loginSignFooter .toLogin:hover{
+    text-decoration: underline;
+   
+
+}
+
+.icPasCorrect{
+    right: 10px;
+    top: 10px;
+    display: block;
+    font-size: 30px;
+    display: none;
+}
+.pInvalidPassword{
+    margin-top: 10px;
+    color: red;
+    display: none;
+}
+
+.icEmailCorrect{
+    right: 10px;
+    top: 10px;
+    display: block;
+    font-size: 30px;
+    display: none;
+}
+.pInvalidEmail{
+    margin-top: 10px;
+    color: red;
+    display: none;
+}
+
+.icNameCorrect{
+    right: 10px;
+    top: 10px;
+    display: block;
+    font-size: 30px;
+    display: none;
+}
+.pInvalidName{
+    margin-top: 10px;
+    color: red;
+    display: none;
+}
+
+.navbar{
+    background-color: var(--mainColor);
+    height: 100px;
+}
+
+#loginAndSign{
+    display: block;
+}
+#home{
+    display: none;
+    height: 100vh;
+}
+#navBar{
+    display: none;
+}
+.navBtn{
+    color: white;
+    background-color: transparent;
+    border: 1px solid #ffc107 ;
+    padding: 10px;
+
+}
+.navBtn:hover{
+    color: white;
+    background-color: #ffc107;
+  
+
+}
+#containerHone{
+    color: var(--primaryColor);
+
+}
+
+#loginInvalid{
+    color: red;
+    display: none;
+}
